@@ -28,6 +28,8 @@ This list uses a broad but explicit **GUI-agent / computer-use agent** scope.
 
 Generic LLM-agent work is included only when it has a clear path to GUI perception, browser/mobile/desktop operation, computer-use evaluation, or GUI-agent safety.
 
+Venue labels are kept conservative: use the confirmed conference only when it is stated on the official paper page, repository, or proceedings page; otherwise use `arXiv` or `Tech Report`.
+
 ---
 
 ## Table of Contents
@@ -40,7 +42,6 @@ Generic LLM-agent work is included only when it has a clear path to GUI percepti
 - [Model / Data Collections](#model--data-collections)
 - [Recent Research](#recent-research)
   - [ICML 2026](#icml-2026)
-  - [CVPR 2026](#cvpr-2026)
   - [arXiv 2026](#arxiv-2026)
   - [CVPR 2025](#cvpr-2025)
   - [NeurIPS 2025](#neurips-2025)
@@ -267,11 +268,9 @@ Generic LLM-agent work is included only when it has a clear path to GUI percepti
 + [Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling](https://arxiv.org/abs/2605.21470)
 + [Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining](https://arxiv.org/abs/2605.14747)
 
-### CVPR 2026
-+ ![Star](https://img.shields.io/github/stars/Neur-IO/BAMI.svg?style=social&label=Star) [BAMI: Training-Free Bias Mitigation in GUI Grounding](https://arxiv.org/abs/2605.06664) [[code]](https://github.com/Neur-IO/BAMI)
-
 ### arXiv 2026
 + ![Star](https://img.shields.io/github/stars/inclusionAI/UI-Venus.svg?style=social&label=Star) [UI-Venus-1.5 Technical Report](https://arxiv.org/abs/2602.09082) [[code]](https://github.com/inclusionAI/UI-Venus) [[model]](https://huggingface.co/collections/inclusionAI/ui-venus)
++ ![Star](https://img.shields.io/github/stars/Neur-IO/BAMI.svg?style=social&label=Star) [BAMI: Training-Free Bias Mitigation in GUI Grounding](https://arxiv.org/abs/2605.06664) (Tech Report 2026) [[project]](https://github.com/Neur-IO/BAMI)
 + [EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience](https://arxiv.org/abs/2601.15876) [[model]](https://huggingface.co/collections/harbingeva/evocua-687c664a9bb7b48f2272ff8a)
 + ![Star](https://img.shields.io/github/stars/X-PLUG/MobileAgent.svg?style=social&label=Star) [Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents](https://arxiv.org/abs/2602.16855) [[code]](https://github.com/X-PLUG/MobileAgent)
 + ![Star](https://img.shields.io/github/stars/UITron-hub/TreeCUA.svg?style=social&label=Star) [TreeCUA: Efficiently Scaling GUI Automation with Tree-Structured Verifiable Evolution](https://arxiv.org/abs/2602.09662) [[code]](https://github.com/UITron-hub/TreeCUA)
@@ -620,7 +619,7 @@ Multimodal GUI Agents
 + ![Star](https://img.shields.io/github/stars/alibaba/UI-Ins.svg?style=social&label=Star) [UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning](https://arxiv.org/abs/2510.20286) (2025) [[code]](https://github.com/alibaba/UI-Ins)
 + ![Star](https://img.shields.io/github/stars/sjz5202/GUI-AIMA.svg?style=social&label=Star) [GUI-AIMA: Aligning Intrinsic Multimodal Attention with a Context Anchor for GUI Grounding](https://arxiv.org/abs/2511.00810) (2025) [[code]](https://github.com/sjz5202/GUI-AIMA)
 + [SafeGround: Know When to Trust GUI Grounding Models via Uncertainty Calibration](https://arxiv.org/abs/2602.02419) (2026)
-+ ![Star](https://img.shields.io/github/stars/Neur-IO/BAMI.svg?style=social&label=Star) [BAMI: Training-Free Bias Mitigation in GUI Grounding](https://arxiv.org/abs/2605.06664) (CVPR 2026) [[code]](https://github.com/Neur-IO/BAMI)
++ ![Star](https://img.shields.io/github/stars/Neur-IO/BAMI.svg?style=social&label=Star) [BAMI: Training-Free Bias Mitigation in GUI Grounding](https://arxiv.org/abs/2605.06664) (Tech Report 2026) [[project]](https://github.com/Neur-IO/BAMI)
 + [DRS-GUI: Dynamic Region Search for Training-Free GUI Grounding](https://arxiv.org/abs/2605.15542) (2026)
 + ![Star](https://img.shields.io/github/stars/ZZZhr-1/WinDeskGround.svg?style=social&label=Star) [WinDeskGround: A Benchmark for Robust GUI Grounding in Complex Multi-Window Desktop Environments](https://arxiv.org/abs/2605.16402) (2026) [[code]](https://github.com/ZZZhr-1/WinDeskGround)
 + ![Star](https://img.shields.io/github/stars/linjiaping1/Re-Prefill.svg?style=social&label=Star) [What Happens Before Decoding? Prefill Determines GUI Grounding in VLMs](https://arxiv.org/abs/2605.12549) (2026) [[code]](https://github.com/linjiaping1/Re-Prefill)
@@ -1120,6 +1119,7 @@ Before submitting a pull request, please check:
 
 - The paper / project is related to multimodal GUI agents.
 - The scope label is clear: core paper, related background, dataset, benchmark, or tool.
+- Venue labels are conservative; use `arXiv` or `Tech Report` unless the conference acceptance is explicitly confirmed.
 - The link is valid.
 - Duplicate entries are avoided.
 - A short description or tag is provided.
