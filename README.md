@@ -28,7 +28,7 @@ This list uses a broad but explicit **GUI-agent / computer-use agent** scope.
 
 Generic LLM-agent work is included only when it has a clear path to GUI perception, browser/mobile/desktop operation, computer-use evaluation, or GUI-agent safety.
 
-Venue labels are kept conservative: use the confirmed conference only when it is stated on the official paper page, repository, or proceedings page; otherwise use `arXiv` or `Tech Report`.
+Venue labels are kept conservative: prefer official paper pages, repositories, or proceedings pages; use arXiv metadata only when it is specific and not contradicted by official sources. Otherwise use `arXiv` or `Tech Report`.
 
 ---
 
@@ -42,13 +42,13 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 - [Model / Data Collections](#model--data-collections)
 - [Recent Research](#recent-research)
   - [ICML 2026](#icml-2026)
+  - [AAAI 2026](#aaai-2026)
   - [arXiv 2026](#arxiv-2026)
   - [CVPR 2025](#cvpr-2025)
-  - [NeurIPS 2025](#neurips-2025)
   - [ICLR 2025](#iclr-2025)
   - [ACL 2024](#acl-2024)
   - [CVPR 2024](#cvpr-2024)
-  - [NeurIPS 2024 / 2023](#neurips)
+  - [NeurIPS / Datasets & Benchmarks](#neurips)
   - [ICML 2024](#icml-2024)
   - [arXiv 2025](#arxiv-2025)
   - [arXiv 2024](#arxiv-2024)
@@ -118,7 +118,7 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 | ![Star](https://img.shields.io/github/stars/X-PLUG/MobileAgent.svg?style=social&label=Star) <br> [**Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent**](https://arxiv.org/abs/2401.16158) <br> | arXiv | 2024 | [Github](https://github.com/X-PLUG/MobileAgent) | Smartphone operation |
 | ![Star](https://img.shields.io/github/stars/MinorJerry/WebVoyager.svg?style=social&label=Star) <br> [**WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models**](https://arxiv.org/abs/2401.13919) <br> | arXiv | 2024 | [Github](https://github.com/MinorJerry/WebVoyager) | Web navigation |
 | ![Star](https://img.shields.io/github/stars/mnotgod96/AppAgent.svg?style=social&label=Star) <br> [**AppAgent: Multimodal Agents as Smartphone Users**](https://arxiv.org/abs/2312.13771) <br> | arXiv | 2023 | [Github](https://github.com/mnotgod96/AppAgent) | App control |
-| ![Star](https://img.shields.io/github/stars/showlab/assistgui.svg?style=social&label=Star) <br> [**AssistGUI: Task-Oriented Desktop Graphical User Interface Automation**](https://arxiv.org/abs/2401.07781) <br> | CVPR | 2024 | [Github](https://github.com/showlab/assistgui) | Desktop automation |
+| ![Star](https://img.shields.io/github/stars/showlab/assistgui.svg?style=social&label=Star) <br> [**AssistGUI: Task-Oriented Desktop Graphical User Interface Automation**](https://arxiv.org/abs/2312.13108) <br> | CVPR | 2024 | [Github](https://github.com/showlab/assistgui) | Desktop automation |
 | ![Star](https://img.shields.io/github/stars/microsoft/UFO.svg?style=social&label=Star) <br> [**UFO: A UI-Focused Agent for Windows OS Interaction**](https://arxiv.org/abs/2402.07939) <br> | arXiv | 2024 | [Github](https://github.com/microsoft/UFO) | Windows desktop agent |
 | ![Star](https://img.shields.io/github/stars/xlang-ai/Aguvis.svg?style=social&label=Star) <br> [**Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction**](https://arxiv.org/abs/2412.04454) <br> | arXiv | 2024 | [Github](https://github.com/xlang-ai/aguvis) | Pure vision GUI agent |
 | ![Star](https://img.shields.io/github/stars/THUDM/AutoGLM.svg?style=social&label=Star) <br> [**AutoGLM: Autonomous Foundation Agents for GUIs**](https://arxiv.org/abs/2411.00820) <br> | arXiv | 2024 | [Github](https://github.com/THUDM/AutoGLM) | Foundation GUI agent |
@@ -156,7 +156,7 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 | ![Star](https://img.shields.io/github/stars/microsoft/WindowsAgentArena.svg?style=social&label=Star) <br> [**Windows Agent Arena**](https://arxiv.org/abs/2409.08264) | Desktop | Windows OS agent benchmark | arXiv | 2024 | [Github](https://github.com/microsoft/WindowsAgentArena) |
 | [**SPA-Bench**](https://arxiv.org/abs/2410.15164) | Mobile | Smartphone agent evaluation | ICLR | 2025 | [Website](https://ai-agents-2030.github.io/SPA-Bench/) |
 | ![Star](https://img.shields.io/github/stars/likaixin2000/ScreenSpot-Pro-GUI-Grounding.svg?style=social&label=Star) <br> [**ScreenSpot-Pro**](https://arxiv.org/abs/2504.07981) | Desktop | Professional GUI grounding | arXiv | 2025 | [Github](https://github.com/likaixin2000/ScreenSpot-Pro-GUI-Grounding) |
-| ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) <br> [**WorldGUI**](https://arxiv.org/abs/2502.08047) | Desktop | Dynamic desktop GUI testing | arXiv | 2025 | [Github](https://github.com/showlab/GUI-Thinker) |
+| ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) <br> [**WorldGUI**](https://arxiv.org/abs/2502.08047) | Desktop | Dynamic desktop GUI testing | arXiv | 2025 | [Github](https://github.com/showlab/WorldGUI) |
 | ![Star](https://img.shields.io/github/stars/OS-Copilot/ScienceBoard.svg?style=social&label=Star) <br> [**ScienceBoard**](https://arxiv.org/abs/2505.19897) | Desktop | Scientific workflow evaluation | arXiv | 2025 | [Github](https://github.com/OS-Copilot/ScienceBoard) |
 | ![Star](https://img.shields.io/github/stars/lgy0404/LearnAct.svg?style=social&label=Star) <br> [**LearnAct**](https://arxiv.org/abs/2504.13805) | Mobile | Few-shot mobile GUI agent data | arXiv | 2025 | [Github](https://github.com/lgy0404/LearnAct) |
 | ![Star](https://img.shields.io/github/stars/Alibaba-nlp/WebWalker.svg?style=social&label=Star) <br> [**WebWalker**](https://github.com/Alibaba-nlp/WebWalker) | Web | Web traversal benchmark | arXiv | 2025 | [Github](https://github.com/Alibaba-nlp/WebWalker) |
@@ -200,7 +200,7 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 | [**OmniGUI**](https://arxiv.org/abs/2605.18758) | Mobile | Omni-modal smartphone environments | arXiv | 2026 | [Website](https://omni-gui.github.io) |
 | [**UI-Vision**](https://arxiv.org/abs/2503.15661) | Desktop | Visual perception and interaction | arXiv | 2025 | [Paper](https://arxiv.org/abs/2503.15661) |
 | [**Mobile-Bench-v2**](https://arxiv.org/abs/2505.11891) | Mobile | Realistic mobile-agent benchmark | arXiv | 2025 | [Data](https://huggingface.co/datasets/xwk123/MobileBench-v2) |
-| [**MVISU-Bench**](https://arxiv.org/abs/2508.09057) | Mobile | Multi-app / vague / interactive tasks | arXiv | 2025 | [Paper](https://arxiv.org/abs/2508.09057) |
+| [**MVISU-Bench**](https://arxiv.org/abs/2508.09057) | Mobile | Multi-app / vague / interactive tasks | ACM MM | 2025 | [Paper](https://arxiv.org/abs/2508.09057) |
 | [**MAS-Bench**](https://arxiv.org/abs/2509.06477) | Mobile | Shortcut-augmented hybrid agents | arXiv | 2025 | [Website](https://pengxiang-zhao.github.io/MAS-Bench) |
 | ![Star](https://img.shields.io/github/stars/MadeAgents/ColorBench.svg?style=social&label=Star) <br> [**ColorBench**](https://arxiv.org/abs/2510.14621) | Mobile | Long-horizon graph-structured tasks | arXiv | 2025 | [Github](https://github.com/MadeAgents/ColorBench) |
 | [**MobiBench**](https://arxiv.org/abs/2512.12634) | Mobile | Multi-branch modular benchmark | arXiv | 2025 | [Paper](https://arxiv.org/abs/2512.12634) |
@@ -268,6 +268,9 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 + [Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling](https://arxiv.org/abs/2605.21470)
 + [Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining](https://arxiv.org/abs/2605.14747)
 
+### AAAI 2026
++ ![Star](https://img.shields.io/github/stars/TongUI-agent/TongUI-agent.svg?style=social&label=Star) [TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents](https://arxiv.org/abs/2504.12679) [[code]](https://github.com/TongUI-agent/TongUI-agent)
+
 ### arXiv 2026
 + ![Star](https://img.shields.io/github/stars/inclusionAI/UI-Venus.svg?style=social&label=Star) [UI-Venus-1.5 Technical Report](https://arxiv.org/abs/2602.09082) [[code]](https://github.com/inclusionAI/UI-Venus) [[model]](https://huggingface.co/collections/inclusionAI/ui-venus)
 + ![Star](https://img.shields.io/github/stars/Neur-IO/BAMI.svg?style=social&label=Star) [BAMI: Training-Free Bias Mitigation in GUI Grounding](https://arxiv.org/abs/2605.06664) (Tech Report 2026) [[project]](https://github.com/Neur-IO/BAMI)
@@ -316,16 +319,10 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 
 ### CVPR 2025
 + ![Star](https://img.shields.io/github/stars/showlab/ShowUI.svg?style=social&label=Star) [ShowUI: One Vision-Language-Action Model for GUI Visual Agent](https://arxiv.org/abs/2411.17465) [[code]](https://github.com/showlab/ShowUI)
-+ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [GUI-Thinker: A Basic yet Comprehensive GUI Agent Developed with Self-Reflection](https://arxiv.org/abs/2502.08047) [[code]](https://github.com/showlab/GUI-Thinker)
-+ ![Star](https://img.shields.io/github/stars/showlab/videogui.svg?style=social&label=Star) [VideoGUI: A Benchmark for GUI Automation from Instructional Videos](https://arxiv.org/abs/2406.10227) [[code]](https://github.com/showlab/videogui)
-
-### NeurIPS 2025
-+ ![Star](https://img.shields.io/github/stars/xlang-ai/OpenCUA.svg?style=social&label=Star) [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123) [[code]](https://github.com/xlang-ai/OpenCUA)
 
 ### ICLR 2025
 + ![Star](https://img.shields.io/github/stars/OS-Copilot/OS-Atlas.svg?style=social&label=Star) [OS-ATLAS: A Foundation Action Model for Generalist GUI Agents](https://arxiv.org/abs/2410.23218) [[code]](https://github.com/OS-Copilot/OS-Atlas)
 + ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/UGround.svg?style=social&label=Star) [UGround: Navigating the Digital World as Humans Do: Universal Visual Grounding for GUI Agents](https://arxiv.org/abs/2410.05243) [[code]](https://github.com/OSU-NLP-Group/UGround)
-+ ![Star](https://img.shields.io/github/stars/gimme1dollar/b-moca.svg?style=social&label=Star) [Benchmarking Mobile Device Control Agents across Diverse Configurations](https://arxiv.org/abs/2404.16660) [[code]](https://github.com/gimme1dollar/b-moca)
 
 ### ACL 2024
 + ![Star](https://img.shields.io/github/stars/njucckevin/SeeClick.svg?style=social&label=Star) [SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents](https://arxiv.org/abs/2401.10935) [[code]](https://github.com/njucckevin/SeeClick)
@@ -333,14 +330,14 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 
 ### CVPR 2024
 + ![Star](https://img.shields.io/github/stars/THUDM/CogAgent.svg?style=social&label=Star) [CogAgent: A Visual Language Model for GUI Agents](https://arxiv.org/abs/2312.08914) [[code]](https://github.com/THUDM/CogAgent)
-+ ![Star](https://img.shields.io/github/stars/showlab/assistgui.svg?style=social&label=Star) [AssistGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2401.07781) [[code]](https://github.com/showlab/assistgui)
++ ![Star](https://img.shields.io/github/stars/showlab/assistgui.svg?style=social&label=Star) [AssistGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108) [[code]](https://github.com/showlab/assistgui)
 + [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476)
 
 ### ICML 2024
 + ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/SeeAct.svg?style=social&label=Star) [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://arxiv.org/abs/2401.01614) [[code]](https://github.com/OSU-NLP-Group/SeeAct)
 
 ### NeurIPS
-+ ![Star](https://img.shields.io/github/stars/xlang-ai/OpenAgents.svg?style=social&label=Star) [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634) [[code]](https://github.com/xlang-ai/OpenAgents) (2023)
++ ![Star](https://img.shields.io/github/stars/showlab/videogui.svg?style=social&label=Star) [VideoGUI: A Benchmark for GUI Automation from Instructional Videos](https://arxiv.org/abs/2406.10227) [[code]](https://github.com/showlab/videogui) (NeurIPS 2024 D&B)
 + ![Star](https://img.shields.io/github/stars/princeton-nlp/WebShop.svg?style=social&label=Star) [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) [[code]](https://github.com/princeton-nlp/WebShop) (2022; related web-agent foundation)
 
 ### ICLR 2024
@@ -348,11 +345,12 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 
 ### arXiv 2025
 + ![Star](https://img.shields.io/github/stars/bytedance/UI-TARS.svg?style=social&label=Star) [UI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/abs/2501.12326) [[code]](https://github.com/bytedance/UI-TARS)
++ ![Star](https://img.shields.io/github/stars/xlang-ai/OpenCUA.svg?style=social&label=Star) [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123) [[code]](https://github.com/xlang-ai/OpenCUA)
++ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point](https://arxiv.org/abs/2502.08047) (Tech Report) [[code]](https://github.com/showlab/WorldGUI)
 + ![Star](https://img.shields.io/github/stars/Reallm-Labs/InfiGUIAgent.svg?style=social&label=Star) [InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection](https://arxiv.org/abs/2501.04575) [[code]](https://github.com/Reallm-Labs/InfiGUIAgent)
 + [GUI-Bee: Align GUI Action Grounding to Novel Environments via Autonomous Exploration](https://arxiv.org/abs/2501.13896)
 + ![Star](https://img.shields.io/github/stars/OpenBMB/AgentCPM-GUI.svg?style=social&label=Star) [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://arxiv.org/abs/2506.01391) [[code]](https://github.com/OpenBMB/AgentCPM-GUI)
 + ![Star](https://img.shields.io/github/stars/zju-real/gui-rcpo.svg?style=social&label=Star) [Test-Time Reinforcement Learning for GUI Grounding via Region Consistency](https://arxiv.org/abs/2508.05615) [[code]](https://github.com/zju-real/gui-rcpo)
-+ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [TongUI: Building Generalized GUI Agents by Learning from Multimodal Web Tutorials](https://arxiv.org/abs/2504.12679) [[code]](https://github.com/TongUI-agent/TongUI-agent)
 + [EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection](https://arxiv.org/abs/2505.14289)
 + ![Star](https://img.shields.io/github/stars/bytedance/UI-TARS.svg?style=social&label=Star) [UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.02544) [[code]](https://github.com/bytedance/UI-TARS)
 + ![Star](https://img.shields.io/github/stars/microsoft/Phi-Ground.svg?style=social&label=Star) [Phi-Ground Tech Report: Advancing Perception in GUI Grounding](https://arxiv.org/abs/2507.23779) [[code]](https://github.com/microsoft/Phi-Ground)
@@ -392,7 +390,7 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 + [Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents](https://arxiv.org/abs/2505.11891) [[data]](https://huggingface.co/datasets/xwk123/MobileBench-v2)
 + [Mobile-R1: Towards Interactive Capability for VLM-Based Mobile Agent via Systematic Training](https://arxiv.org/abs/2506.20332) [[project]](https://mobile-r1.github.io/Mobile-R1/)
 + [MobileGUI-RL: Advancing Mobile GUI Agent through Reinforcement Learning in Online Environment](https://arxiv.org/abs/2507.05720)
-+ [MVISU-Bench: Benchmarking Mobile Agents for Real-World Tasks](https://arxiv.org/abs/2508.09057)
++ [MVISU-Bench: Benchmarking Mobile Agents for Real-World Tasks by Multi-App, Vague, Interactive, Single-App and Unethical Instructions](https://arxiv.org/abs/2508.09057) (ACM MM 2025)
 + [InquireMobile: Teaching VLM-based Mobile Agent to Request Human Assistance via Reinforcement Fine-Tuning](https://arxiv.org/abs/2508.19679)
 + [MobileRAG: Enhancing Mobile Agent with Retrieval-Augmented Generation](https://arxiv.org/abs/2509.03891) [[code]](https://github.com/liuxiaojieOutOfWorld/MobileRAG_arxiv)
 + [MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents](https://arxiv.org/abs/2509.06477) [[website]](https://pengxiang-zhao.github.io/MAS-Bench)
@@ -420,9 +418,10 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 + ![Star](https://img.shields.io/github/stars/simular-ai/Agent-S.svg?style=social&label=Star) [Agent S: An Open Agentic Framework that Uses Computers Like a Human](https://arxiv.org/abs/2410.08164) [[code]](https://github.com/simular-ai/Agent-S)
 + ![Star](https://img.shields.io/github/stars/THUDM/AutoGLM.svg?style=social&label=Star) [AutoGLM: Autonomous Foundation Agents for GUIs](https://arxiv.org/abs/2411.00820) [[code]](https://github.com/THUDM/AutoGLM)
 + ![Star](https://img.shields.io/github/stars/xlang-ai/aguvis.svg?style=social&label=Star) [Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction](https://arxiv.org/abs/2412.04454) [[code]](https://github.com/xlang-ai/aguvis)
-+ ![Star](https://img.shields.io/github/stars/chengyou-jia/AgentStore.svg?style=social&label=Star) [AgentStore: Scalable Integration of Heterogeneous Agents](https://arxiv.org/abs/2410.18603) [[code]](https://github.com/chengyou-jia/AgentStore)
++ ![Star](https://img.shields.io/github/stars/chengyou-jia/AgentStore.svg?style=social&label=Star) [AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant](https://arxiv.org/abs/2410.18603) [[code]](https://github.com/chengyou-jia/AgentStore)
 + ![Star](https://img.shields.io/github/stars/GAIR-NLP/PC-Agent.svg?style=social&label=Star) [PC Agent: While You Sleep, AI Works](https://arxiv.org/abs/2412.17589) [[code]](https://github.com/GAIR-NLP/PC-Agent)
-+ ![Star](https://img.shields.io/github/stars/OpenDFM/MobA.svg?style=social&label=Star) [MobA: A Two-Level Agent System for Efficient Mobile Task Automation](https://arxiv.org/abs/2410.13757) [[code]](https://github.com/OpenDFM/MobA)
++ ![Star](https://img.shields.io/github/stars/OpenDFM/MobA.svg?style=social&label=Star) [MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation](https://arxiv.org/abs/2410.13757) (NAACL 2025 Demo) [[code]](https://github.com/OpenDFM/MobA)
++ ![Star](https://img.shields.io/github/stars/jylee425/b-moca.svg?style=social&label=Star) [Benchmarking Mobile Device Control Agents across Diverse Configurations](https://arxiv.org/abs/2404.16660) (CoLLAs 2025; ICLR 2024 workshop) [[code]](https://github.com/jylee425/b-moca)
 + [MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding](https://arxiv.org/abs/2409.14818)
 + ![Star](https://img.shields.io/github/stars/zorazrw/agent-workflow-memory.svg?style=social&label=Star) [Agent Workflow Memory](https://arxiv.org/abs/2409.07429) [[code]](https://github.com/zorazrw/agent-workflow-memory)
 + ![Star](https://img.shields.io/github/stars/THUDM/CogAgent.svg?style=social&label=Star) [CogAgent v2](https://github.com/THUDM/CogAgent) [[code]](https://github.com/THUDM/CogAgent)
@@ -471,6 +470,7 @@ Venue labels are kept conservative: use the confirmed conference only when it is
 ### 2023 and Before
 + [World of Bits: An Open-Domain Platform for Web-Based Agents](https://proceedings.mlr.press/v70/shi17a.html) (2017; related web-agent foundation)
 + ![Star](https://img.shields.io/github/stars/princeton-nlp/WebShop.svg?style=social&label=Star) [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) [[code]](https://github.com/princeton-nlp/WebShop) (2022; related web-agent foundation)
++ ![Star](https://img.shields.io/github/stars/xlang-ai/OpenAgents.svg?style=social&label=Star) [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634) [[code]](https://github.com/xlang-ai/OpenAgents) (2023; related background)
 + ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/Mind2Web.svg?style=social&label=Star) [Mind2Web: Towards a Generalist Agent for the Web](https://arxiv.org/abs/2306.06070) [[code]](https://github.com/OSU-NLP-Group/Mind2Web) (2023)
 + [Android in the Wild: A Large-Scale Dataset for Android Device Control](https://arxiv.org/abs/2307.10088) (2023)
 + ![Star](https://img.shields.io/github/stars/web-arena-x/webarena.svg?style=social&label=Star) [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) [[code]](https://github.com/web-arena-x/webarena) (2023)
@@ -559,7 +559,7 @@ Multimodal GUI Agents
 2024  SeeClick, VisualWebArena, WebVoyager, OSWorld, GUI Odyssey, UFO, OS-Copilot, ScreenAgent,
       Ferret-UI, AutoWebGLM, DigiRL, Aguvis, AutoGLM, Agent-S, PC Agent, OmniParser, AgentStudio
 2025  OS-Atlas, ShowUI, UI-TARS, UI-TARS-2, UGround, InfiGUIAgent, AgentCPM-GUI, TongUI,
-      GUI-Thinker, OpenCUA, Phi-Ground, InfiGUI-R1, Mobile-Agent-v3, ScreenSpot-Pro,
+      WorldGUI, OpenCUA, Phi-Ground, InfiGUI-R1, Mobile-Agent-v3, ScreenSpot-Pro,
       MMBench-GUI, macOSWorld, NaturalGAIA, ComputerRL, MobileRL, ScaleCUA, UI-R1,
       ScreenLLM, V-Droid, Mobile-Bench-v2, Mobile-R1, MobileWorldBench
 2026  UI-Venus-1.5, EvoCUA, Mobile-Agent-v3.5, TreeCUA, OpenComputer, CUA-Gym, MobileGym,
@@ -647,14 +647,14 @@ Multimodal GUI Agents
 + ![Star](https://img.shields.io/github/stars/simular-ai/Agent-S.svg?style=social&label=Star) [Agent S: An Open Agentic Framework that Uses Computers Like a Human](https://arxiv.org/abs/2410.08164) (2024) [[code]](https://github.com/simular-ai/Agent-S)
 + ![Star](https://img.shields.io/github/stars/GAIR-NLP/PC-Agent.svg?style=social&label=Star) [PC Agent: While You Sleep, AI Works](https://arxiv.org/abs/2412.17589) (2024) [[code]](https://github.com/GAIR-NLP/PC-Agent)
 + ![Star](https://img.shields.io/github/stars/Reallm-Labs/InfiGUIAgent.svg?style=social&label=Star) [InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection](https://arxiv.org/abs/2501.04575) (2025) [[code]](https://github.com/Reallm-Labs/InfiGUIAgent)
-+ ![Star](https://img.shields.io/github/stars/chengyou-jia/AgentStore.svg?style=social&label=Star) [AgentStore: Scalable Integration of Heterogeneous Agents](https://arxiv.org/abs/2410.18603) (2024) [[code]](https://github.com/chengyou-jia/AgentStore)
++ ![Star](https://img.shields.io/github/stars/chengyou-jia/AgentStore.svg?style=social&label=Star) [AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant](https://arxiv.org/abs/2410.18603) (2024) [[code]](https://github.com/chengyou-jia/AgentStore)
 + ![Star](https://img.shields.io/github/stars/THUDM/AutoWebGLM.svg?style=social&label=Star) [AutoWebGLM: Bootstrap and Reinforce a Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648) (KDD 2024) [[code]](https://github.com/THUDM/AutoWebGLM)
 + ![Star](https://img.shields.io/github/stars/xlang-ai/OpenAgents.svg?style=social&label=Star) [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634) (2023) [[code]](https://github.com/xlang-ai/OpenAgents)
 + ![Star](https://img.shields.io/github/stars/cooelf/Auto-UI.svg?style=social&label=Star) [You Only Look at Screens: Multimodal Chain-of-Action Agents](https://arxiv.org/abs/2309.11436) (2023) [[code]](https://github.com/cooelf/Auto-UI)
 + [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716) (2023)
 + ![Star](https://img.shields.io/github/stars/OpenBMB/AgentCPM-GUI.svg?style=social&label=Star) [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://arxiv.org/abs/2506.01391) (2025) [[code]](https://github.com/OpenBMB/AgentCPM-GUI)
-+ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [TongUI: Building Generalized GUI Agents by Learning from Multimodal Web Tutorials](https://arxiv.org/abs/2504.12679) (2025) [[code]](https://github.com/TongUI-agent/TongUI-agent)
-+ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [GUI-Thinker: A Basic yet Comprehensive GUI Agent Developed with Self-Reflection](https://arxiv.org/abs/2502.08047) (2025) [[code]](https://github.com/showlab/GUI-Thinker)
++ ![Star](https://img.shields.io/github/stars/TongUI-agent/TongUI-agent.svg?style=social&label=Star) [TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents](https://arxiv.org/abs/2504.12679) (AAAI 2026) [[code]](https://github.com/TongUI-agent/TongUI-agent)
++ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point](https://arxiv.org/abs/2502.08047) (Tech Report 2025) [[code]](https://github.com/showlab/WorldGUI)
 + ![Star](https://img.shields.io/github/stars/bytedance/UI-TARS.svg?style=social&label=Star) [UI-TARS-2: Advancing GUI Agent with Multi-Turn Reinforcement Learning](https://arxiv.org/abs/2509.02544) (2025) [[code]](https://github.com/bytedance/UI-TARS)
 + ![Star](https://img.shields.io/github/stars/xlang-ai/OpenCUA.svg?style=social&label=Star) [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123) (2025) [[code]](https://github.com/xlang-ai/OpenCUA)
 + [UltraCUA: A Foundation Model for Computer Use Agents with Hybrid Action](https://arxiv.org/abs/2510.17790) (2025)
@@ -691,7 +691,7 @@ Multimodal GUI Agents
 + [World of Bits: An Open-Domain Platform for Web-Based Agents](https://proceedings.mlr.press/v70/shi17a.html) (ICML 2017; related web-agent foundation)
 + ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/SeeAct.svg?style=social&label=Star) [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://arxiv.org/abs/2401.01614) (ICML 2024) [[code]](https://github.com/OSU-NLP-Group/SeeAct)
 + ![Star](https://img.shields.io/github/stars/THUDM/AutoWebGLM.svg?style=social&label=Star) [AutoWebGLM: Bootstrap and Reinforce a Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648) (KDD 2024) [[code]](https://github.com/THUDM/AutoWebGLM)
-+ ![Star](https://img.shields.io/github/stars/EmergenceAI/Agent-E.svg?style=social&label=Star) [Agent-E: From Autonomous Web Navigation to Foundational Design Principles](https://arxiv.org/abs/2407.13032) (2024) [[code]](https://github.com/EmergenceAI/Agent-E)
++ ![Star](https://img.shields.io/github/stars/EmergenceAI/Agent-E.svg?style=social&label=Star) [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032) (2024) [[code]](https://github.com/EmergenceAI/Agent-E)
 + ![Star](https://img.shields.io/github/stars/InternLM/MindSearch.svg?style=social&label=Star) [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://arxiv.org/abs/2407.20183) (2024) [[code]](https://github.com/InternLM/MindSearch)
 + [AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations](https://arxiv.org/abs/2411.13451) (2024)
 + ![Star](https://img.shields.io/github/stars/Alibaba-nlp/WebWalker.svg?style=social&label=Star) [WebWalker: Benchmarking LLMs in Web Traversal](https://github.com/Alibaba-nlp/WebWalker) (2025) [[code]](https://github.com/Alibaba-nlp/WebWalker)
@@ -751,7 +751,7 @@ Multimodal GUI Agents
 + [Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation](https://arxiv.org/abs/2312.03003) (MobiCom 2024)
 + ![Star](https://img.shields.io/github/stars/IMNearth/CoAT.svg?style=social&label=Star) [Android in the Zoo: Chain-of-Action-Thought for GUI Agents](https://arxiv.org/abs/2403.02713) (2024) [[code]](https://github.com/IMNearth/CoAT)
 + [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.04346) (2024)
-+ ![Star](https://img.shields.io/github/stars/OpenDFM/MobA.svg?style=social&label=Star) [MobA: A Two-Level Agent System for Efficient Mobile Task Automation](https://arxiv.org/abs/2410.13757) (2024) [[code]](https://github.com/OpenDFM/MobA)
++ ![Star](https://img.shields.io/github/stars/OpenDFM/MobA.svg?style=social&label=Star) [MobA: Multifaceted Memory-Enhanced Adaptive Planning for Efficient Mobile Task Automation](https://arxiv.org/abs/2410.13757) (NAACL 2025 Demo) [[code]](https://github.com/OpenDFM/MobA)
 + [AppAgent v2: Advanced Agent for Flexible Mobile Interactions](https://arxiv.org/abs/2408.11824) (2024)
 + [MobileVLM: A Vision-Language Model for Better Intra- and Inter-UI Understanding](https://arxiv.org/abs/2409.14818) (2024)
 + [Octopus: On-device language model for function calling of software APIs](https://arxiv.org/abs/2404.01549) (2024)
@@ -793,7 +793,7 @@ Multimodal GUI Agents
 + [Mobile-R1: Towards Interactive Capability for VLM-Based Mobile Agent via Systematic Training](https://arxiv.org/abs/2506.20332) (2025) [[project]](https://mobile-r1.github.io/Mobile-R1/)
 + [Atomic-to-Compositional Generalization for Mobile Agents with A New Benchmark and Scheduling System](https://arxiv.org/abs/2506.08972) (2025) [[project]](https://ui-nexus.github.io)
 + [MobileGUI-RL: Advancing Mobile GUI Agent through Reinforcement Learning in Online Environment](https://arxiv.org/abs/2507.05720) (2025)
-+ [MVISU-Bench: Benchmarking Mobile Agents for Real-World Tasks](https://arxiv.org/abs/2508.09057) (2025)
++ [MVISU-Bench: Benchmarking Mobile Agents for Real-World Tasks by Multi-App, Vague, Interactive, Single-App and Unethical Instructions](https://arxiv.org/abs/2508.09057) (ACM MM 2025)
 + [InquireMobile: Teaching VLM-based Mobile Agent to Request Human Assistance via Reinforcement Fine-Tuning](https://arxiv.org/abs/2508.19679) (2025)
 + ![Star](https://img.shields.io/github/stars/liuxiaojieOutOfWorld/MobileRAG_arxiv.svg?style=social&label=Star) [MobileRAG: Enhancing Mobile Agent with Retrieval-Augmented Generation](https://arxiv.org/abs/2509.03891) (2025) [[code]](https://github.com/liuxiaojieOutOfWorld/MobileRAG_arxiv)
 + [MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents](https://arxiv.org/abs/2509.06477) (2025) [[website]](https://pengxiang-zhao.github.io/MAS-Bench)
@@ -815,7 +815,7 @@ Multimodal GUI Agents
 
 ## Desktop and Computer-Use Agents
 
-+ ![Star](https://img.shields.io/github/stars/showlab/assistgui.svg?style=social&label=Star) [AssistGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2401.07781) (CVPR 2024) [[code]](https://github.com/showlab/assistgui)
++ ![Star](https://img.shields.io/github/stars/showlab/assistgui.svg?style=social&label=Star) [AssistGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108) (CVPR 2024) [[code]](https://github.com/showlab/assistgui)
 + ![Star](https://img.shields.io/github/stars/xlang-ai/OSWorld.svg?style=social&label=Star) [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972) (2024) [[code]](https://github.com/xlang-ai/OSWorld)
 + [OmniACT: A Dataset and Benchmark for Enabling Multimodal Generalist Autonomous Agents for Desktop and Web](https://arxiv.org/abs/2402.17553) (2024)
 + ![Star](https://img.shields.io/github/stars/showlab/computer_use_ootb.svg?style=social&label=Star) [Computer Use Out-of-the-box](https://github.com/showlab/computer_use_ootb)
@@ -827,7 +827,7 @@ Multimodal GUI Agents
 + ![Star](https://img.shields.io/github/stars/BAAI-Agents/Cradle.svg?style=social&label=Star) [Towards General Computer Control: A Multimodal Agent for Red Dead Redemption II](https://arxiv.org/abs/2403.03186) (2024) [[code]](https://github.com/BAAI-Agents/Cradle)
 + ![Star](https://img.shields.io/github/stars/GAIR-NLP/PC-Agent.svg?style=social&label=Star) [PC Agent: While You Sleep, AI Works](https://arxiv.org/abs/2412.17589) (2024) [[code]](https://github.com/GAIR-NLP/PC-Agent)
 + ![Star](https://img.shields.io/github/stars/OS-Copilot/ScienceBoard.svg?style=social&label=Star) [ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows](https://arxiv.org/abs/2505.19897) (2025) [[code]](https://github.com/OS-Copilot/ScienceBoard)
-+ ![Star](https://img.shields.io/github/stars/xlang-ai/Spider2-V.svg?style=social&label=Star) [Spider2-V: How Far Are Multimodal Agents From Automating Data Science Workflows?](https://arxiv.org/abs/2407.10956) (2024) [[code]](https://github.com/xlang-ai/Spider2-V)
++ ![Star](https://img.shields.io/github/stars/xlang-ai/Spider2-V.svg?style=social&label=Star) [Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?](https://arxiv.org/abs/2407.10956) (2024) [[code]](https://github.com/xlang-ai/Spider2-V)
 + ![Star](https://img.shields.io/github/stars/microsoft/WindowsAgentArena.svg?style=social&label=Star) [Windows Agent Arena](https://arxiv.org/abs/2409.08264) (2024) [[code]](https://github.com/microsoft/WindowsAgentArena) [[website]](https://microsoft.github.io/WindowsAgentArena)
 + ![Star](https://img.shields.io/github/stars/BraveGroup/SheetCopilot.svg?style=social&label=Star) [SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models](https://arxiv.org/abs/2305.19308) (NeurIPS 2023) [[code]](https://github.com/BraveGroup/SheetCopilot)
 + ![Star](https://img.shields.io/github/stars/showlab/GUI-Action-Narrator.svg?style=social&label=Star) [GUI Action Narrator: Where and When Did That Action Take Place?](https://arxiv.org/abs/2406.13719) (2024) [[code]](https://github.com/showlab/GUI-Action-Narrator)
@@ -838,7 +838,7 @@ Multimodal GUI Agents
 + ![Star](https://img.shields.io/github/stars/sqzhang-lazy/D-PoT.svg?style=social&label=Star) [Dynamic Planning for LLM-based Graphical User Interface Automation](https://arxiv.org/abs/2410.00467) (2024) [[code]](https://github.com/sqzhang-lazy/D-PoT)
 + [IDA: Breaking Barriers in No-code UI Automation Through Large Language Models and Human-Centric Design](https://arxiv.org/abs/2407.15673) (2024)
 + [Identifying User Goals from UI Trajectories](https://arxiv.org/abs/2406.14314) (2024)
-+ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [WorldGUI: Dynamic Testing for Comprehensive Desktop GUI Automation](https://arxiv.org/abs/2502.08047) (2025) [[code]](https://github.com/showlab/GUI-Thinker)
++ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point](https://arxiv.org/abs/2502.08047) (Tech Report 2025) [[code]](https://github.com/showlab/WorldGUI)
 + ![Star](https://img.shields.io/github/stars/xlang-ai/OpenCUA.svg?style=social&label=Star) [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123) (2025) [[code]](https://github.com/xlang-ai/OpenCUA)
 + ![Star](https://img.shields.io/github/stars/THUDM/ComputerRL.svg?style=social&label=Star) [ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents](https://arxiv.org/abs/2508.14040) (2025) [[code]](https://github.com/thudm/ComputerRL)
 + ![Star](https://img.shields.io/github/stars/OpenGVLab/ScaleCUA.svg?style=social&label=Star) [ScaleCUA: Scaling Open-Source Computer Use Agents with Cross-Platform Data](https://arxiv.org/abs/2509.15221) (2025) [[code]](https://github.com/OpenGVLab/ScaleCUA)
@@ -887,7 +887,7 @@ Multimodal GUI Agents
 + ![Star](https://img.shields.io/github/stars/microsoft/WindowsAgentArena.svg?style=social&label=Star) [Windows Agent Arena](https://arxiv.org/abs/2409.08264) (2024) [[code]](https://github.com/microsoft/WindowsAgentArena) [[website]](https://microsoft.github.io/WindowsAgentArena)
 + [SPA-Bench](https://arxiv.org/abs/2410.15164) (ICLR 2025)
 + ![Star](https://img.shields.io/github/stars/likaixin2000/ScreenSpot-Pro-GUI-Grounding.svg?style=social&label=Star) [ScreenSpot-Pro](https://arxiv.org/abs/2504.07981) (2025) [[code]](https://github.com/likaixin2000/ScreenSpot-Pro-GUI-Grounding) [[leaderboard]](https://gui-agent.github.io/grounding-leaderboard)
-+ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [WorldGUI](https://arxiv.org/abs/2502.08047) (2025) [[code]](https://github.com/showlab/GUI-Thinker)
++ ![Star](https://img.shields.io/github/stars/showlab/WorldGUI.svg?style=social&label=Star) [WorldGUI](https://arxiv.org/abs/2502.08047) (Tech Report 2025) [[code]](https://github.com/showlab/WorldGUI)
 + ![Star](https://img.shields.io/github/stars/OS-Copilot/ScienceBoard.svg?style=social&label=Star) [ScienceBoard](https://arxiv.org/abs/2505.19897) (2025) [[code]](https://github.com/OS-Copilot/ScienceBoard)
 + ![Star](https://img.shields.io/github/stars/lgy0404/LearnAct.svg?style=social&label=Star) [LearnAct](https://arxiv.org/abs/2504.13805) (2025) [[code]](https://github.com/lgy0404/LearnAct)
 + ![Star](https://img.shields.io/github/stars/THUDM/VisualAgentBench.svg?style=social&label=Star) [VisualAgentBench](https://arxiv.org/abs/2408.06327) (2024) [[code]](https://github.com/THUDM/VisualAgentBench)
@@ -928,7 +928,7 @@ Multimodal GUI Agents
 + [MobileViews](https://arxiv.org/abs/2409.14337) (2024) [[data]](https://huggingface.co/datasets/mllmTeam/MobileViews)
 + [UI-Vision](https://arxiv.org/abs/2503.15661) (2025)
 + [Mobile-Bench-v2](https://arxiv.org/abs/2505.11891) (2025) [[data]](https://huggingface.co/datasets/xwk123/MobileBench-v2)
-+ [MVISU-Bench](https://arxiv.org/abs/2508.09057) (2025)
++ [MVISU-Bench](https://arxiv.org/abs/2508.09057) (ACM MM 2025)
 + [MAS-Bench](https://arxiv.org/abs/2509.06477) (2025) [[website]](https://pengxiang-zhao.github.io/MAS-Bench)
 + [ColorBench](https://arxiv.org/abs/2510.14621) (2025) [[code]](https://github.com/MadeAgents/ColorBench)
 + [MobiBench](https://arxiv.org/abs/2512.12634) (2025)
@@ -959,7 +959,7 @@ Multimodal GUI Agents
 + [Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning](https://arxiv.org/abs/2405.00516) (2024)
 + [Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback](https://arxiv.org/abs/2410.05434) (2024) [[project]](https://leap-llm.github.io)
 + [WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning](https://arxiv.org/abs/2411.02337) (2024)
-+ ![Star](https://img.shields.io/github/stars/TongUI-agent/TongUI-agent.svg?style=social&label=Star) [TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents](https://arxiv.org/abs/2504.12679) (2025) [[code]](https://github.com/TongUI-agent/TongUI-agent)
++ ![Star](https://img.shields.io/github/stars/TongUI-agent/TongUI-agent.svg?style=social&label=Star) [TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents](https://arxiv.org/abs/2504.12679) (AAAI 2026) [[code]](https://github.com/TongUI-agent/TongUI-agent)
 + [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://arxiv.org/abs/2504.11257) (2025) [[project]](https://microsoft.github.io/FIVE-UI-Evol/)
 + ![Star](https://img.shields.io/github/stars/OpenGVLab/ZeroGUI.svg?style=social&label=Star) [ZeroGUI: Automating Online GUI Learning at Zero Human Cost](https://arxiv.org/abs/2505.23762) (2025) [[code]](https://github.com/OpenGVLab/ZeroGUI)
 + ![Star](https://img.shields.io/github/stars/dvlab-research/ARPO.svg?style=social&label=Star) [ARPO: End-to-End Policy Optimization for GUI Agents with Experience Replay](https://arxiv.org/abs/2505.16282) (2025) [[code]](https://github.com/dvlab-research/ARPO)
@@ -1000,14 +1000,14 @@ Multimodal GUI Agents
 
 ## Safety, Robustness, and Security
 
-+ [MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control](https://arxiv.org/abs/2407.14610) (2024)
++ [MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control](https://arxiv.org/abs/2410.17520) (2024) [[code]](https://github.com/jylee425/mobilesafetybench)
 + [From Interaction to Impact: Towards Safer AI Agents Through Understanding and Evaluating Mobile UI Operation Impacts](https://arxiv.org/abs/2410.09006) (2024)
-+ [AdvWeb: Controllable Black-box Attacks on VLM-powered Web Agents](https://arxiv.org/abs/2409.19162) (2024)
-+ [Environmental Injection Attack on Generalist Web Agents for Privacy Leakage](https://arxiv.org/abs/2409.16929) (2024)
++ [AdvAgent: Controllable Blackbox Red-teaming on Web Agents](https://arxiv.org/abs/2410.17401) (ICML 2025)
++ [EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage](https://arxiv.org/abs/2409.11295) (ICLR 2025)
 + [Attacking Vision-Language Computer Agents via Pop-ups](https://arxiv.org/abs/2411.02391) (2024)
 + [EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection](https://arxiv.org/abs/2505.14289) (2025)
 + [Caution for the Environment: Multimodal Agents are Susceptible to Environmental Distractions](https://arxiv.org/abs/2408.02544) (2024)
-+ [DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agents](https://arxiv.org/abs/2410.14803) (ICLR 2025)
++ [DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agents](https://arxiv.org/abs/2410.14803) (2024)
 + [The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections](https://arxiv.org/abs/2504.11281) (2025)
 + [Mobile GUI Agents under Real-world Threats: Are We There Yet?](https://arxiv.org/abs/2507.04227) (2025) [[website]](https://agenthazard.github.io)
 + [Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight](https://arxiv.org/abs/2509.10723) (2025)
