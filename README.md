@@ -11,9 +11,6 @@ We will keep tracking recent advances in multimodal GUI agents and updating rele
 🔥🔥🔥 Contributions to our repository are welcome. Feel free to categorize the papers and [pull requests](https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents/pulls).
 
 ---
-[Main Page](#awesome-multimodal-gui-agents-) · [Scope](#scope-and-inclusion-criteria) · [Latest Updates](#latest-updates) · [SOTA Methods](#sota--representative-methods-with-code) · [Benchmarks](#recommended-datasets--benchmarks) · [Models & Data](#model--data-collections) · [Recent Research](#recent-research) · [Paper Tree](#paper-tree) · [Timeline](#timeline) · [Paper List](#paper-list) · [Projects](#open-source-projects--tools)
-
----
 
 ## Scope and Inclusion Criteria
 
