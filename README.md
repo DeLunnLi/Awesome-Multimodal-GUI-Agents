@@ -1,7 +1,7 @@
 # Awesome Multimodal GUI Agents [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <p align="center">
-  <img src="assets/awesome-multimodal-gui-agents.png" alt="Awesome Multimodal GUI Agents" width="100%">
+  <img src="assets/awesome-multimodal-gui-agents.svg" alt="Awesome Multimodal GUI Agents" width="100%">
 </p>
 
 A curated list of **papers, datasets, benchmarks, models, tools, and open-source projects** for **Multimodal GUI Agents**.
