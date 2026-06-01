@@ -23,7 +23,7 @@ This list uses a broad but explicit **GUI-agent / computer-use agent** scope.
 
 - **Core GUI-agent papers:** methods that perceive GUIs, ground UI elements, predict actions, plan over screen states, or execute tasks in web, mobile, desktop, or cross-platform computer-use environments.
 - **Benchmarks and datasets:** evaluation environments, UI datasets, interaction traces, screen understanding data, and trajectory data that directly support GUI-agent research.
-- **Related foundations:** earlier web/mobile control environments, UI understanding datasets, or broader agent surveys that are useful background but are not counted as core GUI-agent method papers.
+- **Related foundations:** earlier web/mobile control environments, UI understanding datasets, and browser/mobile/desktop automation resources that are useful background but are not counted as core GUI-agent method papers.
 - **Tools and projects:** automation frameworks, open-source systems, model repositories, and engineering resources. These are implementation resources, not paper-only entries.
 
 Generic LLM-agent work is included only when it has a clear path to GUI perception, browser/mobile/desktop operation, computer-use evaluation, or GUI-agent safety.
@@ -434,8 +434,6 @@ Venue labels are kept conservative: prefer official paper pages, repositories, o
 + ![Star](https://img.shields.io/github/stars/THUDM/VisualAgentBench.svg?style=social&label=Star) [VisualAgentBench: Towards Large Multimodal Models as Visual Foundation Agents](https://arxiv.org/abs/2408.06327) [[code]](https://github.com/THUDM/VisualAgentBench)
 + [MobileFlow: A Multimodal LLM For Mobile GUI Agent](https://arxiv.org/abs/2407.04346)
 + ![Star](https://img.shields.io/github/stars/EmergenceAI/Agent-E.svg?style=social&label=Star) [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032) [[code]](https://github.com/EmergenceAI/Agent-E)
-+ ![Star](https://img.shields.io/github/stars/OpenBMB/IoA.svg?style=social&label=Star) [Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://arxiv.org/abs/2407.07061) [[code]](https://github.com/OpenBMB/IoA)
-+ ![Star](https://img.shields.io/github/stars/InternLM/MindSearch.svg?style=social&label=Star) [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://arxiv.org/abs/2407.20183) [[code]](https://github.com/InternLM/MindSearch)
 + [AppAgent v2: Advanced Agent for Flexible Mobile Interactions](https://arxiv.org/abs/2408.11824)
 + [AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations](https://arxiv.org/abs/2411.13451)
 + [Lightweight Neural App Control](https://arxiv.org/abs/2410.17883)
@@ -470,7 +468,6 @@ Venue labels are kept conservative: prefer official paper pages, repositories, o
 ### 2023 and Before
 + [World of Bits: An Open-Domain Platform for Web-Based Agents](https://proceedings.mlr.press/v70/shi17a.html) (2017; related web-agent foundation)
 + ![Star](https://img.shields.io/github/stars/princeton-nlp/WebShop.svg?style=social&label=Star) [WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://arxiv.org/abs/2207.01206) [[code]](https://github.com/princeton-nlp/WebShop) (2022; related web-agent foundation)
-+ ![Star](https://img.shields.io/github/stars/xlang-ai/OpenAgents.svg?style=social&label=Star) [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634) [[code]](https://github.com/xlang-ai/OpenAgents) (2023; related background)
 + ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/Mind2Web.svg?style=social&label=Star) [Mind2Web: Towards a Generalist Agent for the Web](https://arxiv.org/abs/2306.06070) [[code]](https://github.com/OSU-NLP-Group/Mind2Web) (2023)
 + [Android in the Wild: A Large-Scale Dataset for Android Device Control](https://arxiv.org/abs/2307.10088) (2023)
 + ![Star](https://img.shields.io/github/stars/web-arena-x/webarena.svg?style=social&label=Star) [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854) [[code]](https://github.com/web-arena-x/webarena) (2023)
@@ -483,7 +480,6 @@ Venue labels are kept conservative: prefer official paper pages, repositories, o
 + [Mobile-Env: Building Qualified Evaluation Benchmarks for LLM-GUI Interaction](https://arxiv.org/abs/2305.08144) (2023)
 + [Multimodal Web Navigation with Instruction-Finetuned Foundation Models](https://arxiv.org/abs/2305.11854) (2023)
 + [A Zero-Shot Language Agent for Computer Control with Structured Reflection](https://arxiv.org/abs/2310.08740) (2023)
-+ [Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models](https://arxiv.org/abs/2310.04406) [[code]](https://github.com/lapisrocks/LanguageAgentTreeSearch) (2023)
 + [AllTogether: Investigating the Efficacy of Spliced Prompt for Web Navigation using Large Language Models](https://arxiv.org/abs/2310.18331) (2023)
 
 ---
@@ -555,7 +551,7 @@ Multimodal GUI Agents
 2020  Mapping NL Instructions to Mobile UI
 2021  AndroidEnv, Screen2Words, WebSRC
 2022  WebShop, Data-Driven Computer Control
-2023  Mind2Web, WebArena, AITW, CogAgent, AppAgent, AssistGUI, Synapse, MM-Navigator, OpenAgents
+2023  Mind2Web, WebArena, AITW, CogAgent, AppAgent, AssistGUI, Synapse, MM-Navigator
 2024  SeeClick, VisualWebArena, WebVoyager, OSWorld, GUI Odyssey, UFO, OS-Copilot, ScreenAgent,
       Ferret-UI, AutoWebGLM, DigiRL, Aguvis, AutoGLM, Agent-S, PC Agent, OmniParser, AgentStudio
 2025  OS-Atlas, ShowUI, UI-TARS, UI-TARS-2, UGround, InfiGUIAgent, AgentCPM-GUI, TongUI,
@@ -575,7 +571,7 @@ Multimodal GUI Agents
 
 ## Surveys
 
-> The last few entries are broader agent surveys kept as background reading; the earlier entries are GUI-agent or computer-use focused.
+> This section keeps GUI-agent, OS-agent, mobile-agent, and computer-use focused surveys.
 
 + ![Star](https://img.shields.io/github/stars/OS-Agent-Survey/OS-Agent-Survey.svg?style=social&label=Star) [OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use](https://github.com/OS-Agent-Survey/OS-Agent-Survey) (Dec. 2024) [[Website]](https://os-agent-survey.github.io/)
 + [GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890) (Nov. 2024)
@@ -585,9 +581,6 @@ Multimodal GUI Agents
 + [A Survey on (M)LLM-Based GUI Agents](https://arxiv.org/abs/2504.13865) (Apr. 2025)
 + [Towards Trustworthy GUI Agents: A Survey](https://arxiv.org/abs/2503.23434) (Mar. 2025)
 + [A Survey on GUI Agents with Foundation Models Enhanced by Reinforcement Learning](https://arxiv.org/abs/2504.20464) (Apr. 2025)
-+ [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](https://arxiv.org/abs/2602.12430) (Feb. 2026; related background) [[code]](https://github.com/scienceaix/agentskills)
-+ [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) (related background)
-+ [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) (related background)
 
 ## GUI Grounding and Screen Understanding
 
@@ -649,7 +642,6 @@ Multimodal GUI Agents
 + ![Star](https://img.shields.io/github/stars/Reallm-Labs/InfiGUIAgent.svg?style=social&label=Star) [InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection](https://arxiv.org/abs/2501.04575) (2025) [[code]](https://github.com/Reallm-Labs/InfiGUIAgent)
 + ![Star](https://img.shields.io/github/stars/chengyou-jia/AgentStore.svg?style=social&label=Star) [AgentStore: Scalable Integration of Heterogeneous Agents As Specialized Generalist Computer Assistant](https://arxiv.org/abs/2410.18603) (2024) [[code]](https://github.com/chengyou-jia/AgentStore)
 + ![Star](https://img.shields.io/github/stars/THUDM/AutoWebGLM.svg?style=social&label=Star) [AutoWebGLM: Bootstrap and Reinforce a Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648) (KDD 2024) [[code]](https://github.com/THUDM/AutoWebGLM)
-+ ![Star](https://img.shields.io/github/stars/xlang-ai/OpenAgents.svg?style=social&label=Star) [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634) (2023) [[code]](https://github.com/xlang-ai/OpenAgents)
 + ![Star](https://img.shields.io/github/stars/cooelf/Auto-UI.svg?style=social&label=Star) [You Only Look at Screens: Multimodal Chain-of-Action Agents](https://arxiv.org/abs/2309.11436) (2023) [[code]](https://github.com/cooelf/Auto-UI)
 + [Reinforced UI Instruction Grounding: Towards a Generic UI Task Automation API](https://arxiv.org/abs/2310.04716) (2023)
 + ![Star](https://img.shields.io/github/stars/OpenBMB/AgentCPM-GUI.svg?style=social&label=Star) [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://arxiv.org/abs/2506.01391) (2025) [[code]](https://github.com/OpenBMB/AgentCPM-GUI)
@@ -692,7 +684,6 @@ Multimodal GUI Agents
 + ![Star](https://img.shields.io/github/stars/OSU-NLP-Group/SeeAct.svg?style=social&label=Star) [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://arxiv.org/abs/2401.01614) (ICML 2024) [[code]](https://github.com/OSU-NLP-Group/SeeAct)
 + ![Star](https://img.shields.io/github/stars/THUDM/AutoWebGLM.svg?style=social&label=Star) [AutoWebGLM: Bootstrap and Reinforce a Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648) (KDD 2024) [[code]](https://github.com/THUDM/AutoWebGLM)
 + ![Star](https://img.shields.io/github/stars/EmergenceAI/Agent-E.svg?style=social&label=Star) [Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems](https://arxiv.org/abs/2407.13032) (2024) [[code]](https://github.com/EmergenceAI/Agent-E)
-+ ![Star](https://img.shields.io/github/stars/InternLM/MindSearch.svg?style=social&label=Star) [MindSearch: Mimicking Human Minds Elicits Deep AI Searcher](https://arxiv.org/abs/2407.20183) (2024) [[code]](https://github.com/InternLM/MindSearch)
 + [AdaptAgent: Adapting Multimodal Web Agents with Few-Shot Learning from Human Demonstrations](https://arxiv.org/abs/2411.13451) (2024)
 + ![Star](https://img.shields.io/github/stars/Alibaba-nlp/WebWalker.svg?style=social&label=Star) [WebWalker: Benchmarking LLMs in Web Traversal](https://github.com/Alibaba-nlp/WebWalker) (2025) [[code]](https://github.com/Alibaba-nlp/WebWalker)
 + [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://arxiv.org/abs/2307.12856) (ICLR 2024)
@@ -957,7 +948,6 @@ Multimodal GUI Agents
 + [AutoManual: Constructing Instruction Manuals by LLM Agents via Interactive Environmental Learning](https://arxiv.org/abs/2405.16247) (2024) [[code]](https://github.com/minghchen/automanual)
 + [On the Effects of Data Scale on UI Control Agents](https://arxiv.org/abs/2406.03679) (2024)
 + [Navigating WebAI: Training Agents to Complete Web Tasks with Large Language Models and Reinforcement Learning](https://arxiv.org/abs/2405.00516) (2024)
-+ [Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback](https://arxiv.org/abs/2410.05434) (2024) [[project]](https://leap-llm.github.io)
 + [WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning](https://arxiv.org/abs/2411.02337) (2024)
 + ![Star](https://img.shields.io/github/stars/TongUI-agent/TongUI-agent.svg?style=social&label=Star) [TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents](https://arxiv.org/abs/2504.12679) (AAAI 2026) [[code]](https://github.com/TongUI-agent/TongUI-agent)
 + [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://arxiv.org/abs/2504.11257) (2025) [[project]](https://microsoft.github.io/FIVE-UI-Evol/)
