@@ -8,8 +8,6 @@ We will keep tracking recent advances in multimodal GUI agents and updating rele
 
 **Keywords:** GUI Agent, Multimodal Agent, Computer Use, Vision-Language Model, VLM, Web Agent, Mobile Agent, Desktop Agent, GUI Grounding, Screen Understanding, Action Prediction, Long-Horizon Automation
 
-[[Main Page]](https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents) [[Survey]](https://github.com/showlab/Awesome-GUI-Agent) [[Benchmark]](https://github.com/xlang-ai/OSWorld)
-
 🔥🔥🔥 Contributions to our repository are welcome. Feel free to categorize the papers and [pull requests](https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents/pulls).
 
 ---
