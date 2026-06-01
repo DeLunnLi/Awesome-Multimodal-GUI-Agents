@@ -1,4 +1,4 @@
-# Awesome Multimodal GUI Agents [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Multimodal GUI Agents [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/DeLunnLi/Awesome-Multimodal-GUI-Agents?style=social)](https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents/stargazers)
 
 <p align="center">
   <img src="assets/awesome-multimodal-gui-agents.svg" alt="Awesome Multimodal GUI Agents" width="100%">
