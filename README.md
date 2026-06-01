@@ -1087,7 +1087,6 @@ Multimodal GUI Agents
 ## Related Repositories
 
 + ![Star](https://img.shields.io/github/stars/showlab/Awesome-GUI-Agent.svg?style=social&label=Star) [showlab/Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent)
-+ ![Star](https://img.shields.io/github/stars/M-3LAB/awesome-industrial-anomaly-detection.svg?style=social&label=Star) [M-3LAB/awesome-industrial-anomaly-detection](https://github.com/M-3LAB/awesome-industrial-anomaly-detection)
 + ![Star](https://img.shields.io/github/stars/e2b-dev/awesome-ai-agents.svg?style=social&label=Star) [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)
 + ![Star](https://img.shields.io/github/stars/kaushikb11/awesome-llm-agents.svg?style=social&label=Star) [kaushikb11/awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents)
 + ![Star](https://img.shields.io/github/stars/ysymyth/awesome-language-agents.svg?style=social&label=Star) [ysymyth/awesome-language-agents](https://github.com/ysymyth/awesome-language-agents)
