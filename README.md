@@ -1,5 +1,9 @@
 # Awesome Multimodal GUI Agents [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+<p align="center">
+  <img src="assets/awesome-multimodal-gui-agents.png" alt="Awesome Multimodal GUI Agents" width="100%">
+</p>
+
 A curated list of **papers, datasets, benchmarks, models, tools, and open-source projects** for **Multimodal GUI Agents**.
 
 This repository focuses on vision-language-based agents that can perceive visual interfaces, understand user instructions, reason over GUI states, and execute actions across **web, mobile, desktop, and general computer-use environments**.
@@ -64,7 +68,6 @@ Venue labels are kept conservative: prefer official paper pages, repositories, o
 - [Related Repositories](#related-repositories)
 - [Contributing](#contributing)
 - [Citation](#citation)
-- [Star History](#star-history)
 
 ---
 
@@ -1122,9 +1125,3 @@ If you find this repository useful, please consider starring this repository and
   howpublished = {\url{https://github.com/DeLunnLi/Awesome-Multimodal-GUI-Agents}}
 }
 ```
-
----
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=DeLunnLi/Awesome-Multimodal-GUI-Agents&type=Date)](https://star-history.com/#DeLunnLi/Awesome-Multimodal-GUI-Agents&Date)
